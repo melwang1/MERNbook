@@ -4,7 +4,7 @@ import { Container,Col,Form,Button,Card,Row } from 'react-bootstrap';
 import Auth from '../utils/auth';
 
 import { SAVE_BOOK } from '../utils/mutations';
-import { useMutation } from '@apollo/react-hooks';
+import { useMutation } from '@apollo/client';
 import { saveBookIds, getSavedBookIds } from '../utils/localStorage';
 
 const SearchBooks = () => {
