@@ -24,6 +24,11 @@ const SearchBooks = () => {
   });
 
   // create method to search for books and set state on form submit
+  const handleInputChange = (event) => {
+    const {name, value} = event.target;
+    setUserFormData({...setUserFormData, [name]: value});
+  };
+  
   const handleFormSubmit = async (event) => {
     event.preventDefault();
 
