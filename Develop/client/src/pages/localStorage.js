@@ -1,5 +1,3 @@
-import SavedBooks from "./SavedBooks";
-
 export const getSavedBookIds = () => {
     const saveBookIds = localStorage.getItem ('saved_books')
     ? JSON.parse(localStorage.getItem('saved_books'))
@@ -28,4 +26,4 @@ export const removeBookId = (bookId) => {
     const updatedSavedBookIds = saveBookIds?.filter ((savedBookId) => savedBookId !== bookId);
     localStorage.setItem ('saved_books', JSON.stringify(updatedSavedBookIds));
     return true;
-}
+};
