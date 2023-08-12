@@ -3,6 +3,8 @@
 #License 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+<img width="1440" alt="Screenshot 2023-08-12 at 3 03 31 PM" src="https://github.com/melwang1/MERNbook/assets/126200765/af9cda6b-931e-4c78-b338-545f2733bb32">
+
 ## Table of Contents
 
 - [Description](#description)
